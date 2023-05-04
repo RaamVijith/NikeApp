@@ -24,18 +24,19 @@ const ShoppingCartTotals = () => {
 
 const ShopingCardScreen =()=>{
     return(
-        <>
+        <View style={{height:'100%'}}>
             <FlatList
             data={cart}
             renderItem={({item})=> <CartListItem cartItem={item} />}
             ListFooterComponent={ShoppingCartTotals}
             />
+            
             <Pressable style={styles.button}>
                 <Text style={styles.buttonText}>
                   Checkout
                 </Text>
             </Pressable>
-        </>
+        </View>
     )
 }
 

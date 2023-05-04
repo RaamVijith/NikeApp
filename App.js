@@ -1,21 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
-import ProductsScreen from './src/screens/ProductScreens';
-import ProductDetailsScreen from './src/screens/ProductDetailsScreen';
-import ShopingCardScreen from './src/screens/ShopingCardScreen';
-
+import Navigation from './src/Navigation';
 
 export default function App() {
   return (
-    <View 
-    //style={styles.container}
-    >
-
-      {//<ProductsScreen/>  <ProductDetailsScreen />
-      }
-
-      <ShopingCardScreen />
-       
+    <View style={styles.container} >
+   
+    <Navigation />  
 
     </View>
   );
