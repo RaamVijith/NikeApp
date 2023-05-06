@@ -12,7 +12,7 @@ const ProductDetailsScreen = ()=>{
 
 
     return(
-        <View>
+        <>
         {/*image carousel */}
         <ScrollView>
         <FlatList
@@ -44,7 +44,7 @@ const ProductDetailsScreen = ()=>{
           <Text style={styles.buttonText}>Add to cart</Text>
         </Pressable>
 
-        </View>
+        </>
     )
 }
 
