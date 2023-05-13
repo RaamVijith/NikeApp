@@ -1,7 +1,7 @@
 import {Text,FlatList,View,StyleSheet,Pressable,ActivityIndicator,Alert,} from 'react-native';import cart from '../data/cart';
 import CartListItem from '../components/CartListItem';
 import { useSelector } from 'react-redux';
-import { selectSubtotal } from '../store/cartSlice';
+import { selectSubtotal, selectDeliveryPrice, selectTotal } from '../store/cartSlice';
 
 const ShoppingCartTotals = () => {
   const subtotal = useSelector(selectSubtotal);
@@ -13,6 +13,8 @@ const ShoppingCartTotals = () => {
       <View style={styles.row}>
         <Text style={styles.text}>Subtotal</Text>
         <Text style={styles.text}> {subtotal} US$</Text>
+        <Text style={styles.text}> {subtotal} US$</Text>
+
       </View>
       <View style={styles.row}>
         <Text style={styles.text}>Delivery</Text>
