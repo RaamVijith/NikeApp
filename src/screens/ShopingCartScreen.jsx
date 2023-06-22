@@ -11,16 +11,7 @@ const ShoppingCartTotals = () => {
   return (
     <View style={styles.totalsContainer}>
      
-      <View style={styles.row}>
-        <Text style={styles.text}>Delivery</Text>
-        <Text style={styles.text}> {deliveryFee} US$</Text>
-      </View>
-      </View>
-      <View style={styles.row}>
-        <Text style={styles.text}>Delivery</Text>
-        <Text style={styles.text}> {deliveryFee} US$</Text>
-      </View>
-       </View>
+     
        <View style={styles.row}>
          <Text style={styles.text}>Delivery</Text>
          <Text style={styles.text}> {deliveryFee} US$</Text>
