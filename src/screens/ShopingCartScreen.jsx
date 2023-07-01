@@ -24,10 +24,7 @@ const ShoppingCartTotals = () => {
         <Text style={styles.textBold}>{total} US$</Text>
       </View>
 
-      <View style={styles.row}>
-         <Text style={styles.text}>Delivery</Text>
-         <Text style={styles.text}> {deliveryFee} US$</Text>
-       </View>
+      
       <View style={styles.row}>
         <Text style={styles.textBold}>Total</Text>
         <Text style={styles.textBold}>{total} US$</Text>
